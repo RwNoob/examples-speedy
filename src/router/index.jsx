@@ -16,6 +16,7 @@ import ElseIfBlocksDemo from '../views/ElseIfBlocks'
 import EachBlocksDemo from '../views/EachBlocks'
 import DomEventsDemo from '../views/DomEvents'
 import ComponentEventsDemo from '../views/ComponentEvents'
+import DomEventForwardingDemo from '../views/DomEventForwarding'
 const routes = [
   {
     path: '/',
@@ -136,6 +137,13 @@ const routes = [
         component: ComponentEventsDemo,
         meta: {
           title: '组件事件'
+        }
+      },
+      {
+        path: 'dom-event-forwarding',
+        component: DomEventForwardingDemo,
+        meta: {
+          title: 'DOM事件转发'
         }
       }
     ]

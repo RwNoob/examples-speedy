@@ -145,6 +145,13 @@ export default function Nav() {
       >
         组件事件
       </RouterLink>
+      <RouterLink
+        to="/layout/dom-event-forwarding"
+        classStyle={[styles.link]}
+        activeClass={styles.active.className}
+      >
+        DOM事件转发
+      </RouterLink>
     </nav>
   )
 }
