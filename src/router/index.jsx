@@ -17,6 +17,10 @@ import EachBlocksDemo from '../views/EachBlocks'
 import DomEventsDemo from '../views/DomEvents'
 import ComponentEventsDemo from '../views/ComponentEvents'
 import DomEventForwardingDemo from '../views/DomEventForwarding'
+import TextInputsDemo from '../views/TextInputs'
+import NumericInputsDemo from '../views/NumericInputs'
+import CheckboxInputsDemo from '../views/CheckboxInputs'
+import GroupInputsDemo from '../views/GroupInputs'
 const routes = [
   {
     path: '/',
@@ -144,6 +148,34 @@ const routes = [
         component: DomEventForwardingDemo,
         meta: {
           title: 'DOM事件转发'
+        }
+      },
+      {
+        path: 'text-inputs',
+        component: TextInputsDemo,
+        meta: {
+          title: '文本输入'
+        }
+      },
+      {
+        path: 'numeric-inputs',
+        component: NumericInputsDemo,
+        meta: {
+          title: '数字输入'
+        }
+      },
+      {
+        path: 'checkbox-inputs',
+        component: CheckboxInputsDemo,
+        meta: {
+          title: '复选框输入'
+        }
+      },
+      {
+        path: 'group-inputs',
+        component: GroupInputsDemo,
+        meta: {
+          title: '组选输入'
         }
       }
     ]

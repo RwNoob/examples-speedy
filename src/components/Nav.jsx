@@ -152,6 +152,34 @@ export default function Nav() {
       >
         DOM事件转发
       </RouterLink>
+      <RouterLink
+        to="/layout/text-inputs"
+        classStyle={[styles.link]}
+        activeClass={styles.active.className}
+      >
+        文本输入
+      </RouterLink>
+      <RouterLink
+        to="/layout/numeric-inputs"
+        classStyle={[styles.link]}
+        activeClass={styles.active.className}
+      >
+        数字输入
+      </RouterLink>
+      <RouterLink
+        to="/layout/checkbox-inputs"
+        classStyle={[styles.link]}
+        activeClass={styles.active.className}
+      >
+        复选框输入
+      </RouterLink>
+      <RouterLink
+        to="/layout/group-inputs"
+        classStyle={[styles.link]}
+        activeClass={styles.active.className}
+      >
+        组选输入
+      </RouterLink>
     </nav>
   )
 }
