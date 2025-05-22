@@ -25,6 +25,7 @@ import TextareaInputsDemo from '../views/TextareaInputs'
 import FileInputs from '../views/FileInputs'
 import SelectBindings from '../views/SelectBindings'
 import MediaElements from '../views/MediaElements'
+import Not from '../views/Not'
 const routes = [
   {
     path: '/',
@@ -211,6 +212,13 @@ const routes = [
         }
       }
     ]
+  },
+  {
+    path: '/404',
+    component: Not,
+    meta: {
+      title: '404'
+    }
   }
 ]
 
