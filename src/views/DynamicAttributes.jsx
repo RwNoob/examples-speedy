@@ -58,13 +58,11 @@ export default function DynamicAttributes() {
   const alt = ref('随机图片')
   const width = ref(200)
   const height = ref(300)
-  const inputSrc = ref(src.value)
 
   const changeImage = () => {
-    width.value = Math.floor(Math.random() * 200) + 20000
+    width.value = Math.floor(Math.random() * 200) + 2000
     height.value = Math.floor(Math.random() * 200) + 2000
     src.value = `https://avatars.githubusercontent.com/u/${width.value + height.value}`
-    inputSrc.value = src.value
   }
 
   const handleInput = e => {
