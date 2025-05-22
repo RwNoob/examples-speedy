@@ -49,6 +49,10 @@ const styles = styled.scope({
     minHeight: '1.5em'
   }
 })
+const Label = styled.div`
+  margin-bottom: 0.5em;
+  color: #333;
+`
 
 const colors = ['红色', '蓝色', '绿色', '黄色']
 
@@ -59,9 +63,7 @@ export default function GroupInputsDemo() {
     <div classStyle={[styles.container]}>
       <div classStyle={[styles.title]}>分组输入（单选组）示例</div>
       <div classStyle={[styles.section]}>
-        <div style={{ marginBottom: '0.5em', color: '#333' }}>
-          请选择你喜欢的颜色：
-        </div>
+        <Label>请选择你喜欢的颜色：</Label>
         {colors.map(color => (
           <label classStyle={[styles.label]}>
             <input

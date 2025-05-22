@@ -21,6 +21,7 @@ import TextInputsDemo from '../views/TextInputs'
 import NumericInputsDemo from '../views/NumericInputs'
 import CheckboxInputsDemo from '../views/CheckboxInputs'
 import GroupInputsDemo from '../views/GroupInputs'
+import TextareaInputsDemo from '../views/TextareaInputs'
 const routes = [
   {
     path: '/',
@@ -176,6 +177,13 @@ const routes = [
         component: GroupInputsDemo,
         meta: {
           title: '组选输入'
+        }
+      },
+      {
+        path: 'textarea-inputs',
+        component: TextareaInputsDemo,
+        meta: {
+          title: '多行文本输入'
         }
       }
     ]
