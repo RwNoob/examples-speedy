@@ -24,6 +24,7 @@ import GroupInputsDemo from '../views/GroupInputs'
 import TextareaInputsDemo from '../views/TextareaInputs'
 import FileInputs from '../views/FileInputs'
 import SelectBindings from '../views/SelectBindings'
+import MediaElements from '../views/MediaElements'
 const routes = [
   {
     path: '/',
@@ -200,6 +201,13 @@ const routes = [
         component: SelectBindings,
         meta: {
           title: '下拉选择绑定'
+        }
+      },
+      {
+        path: 'media-elements',
+        component: MediaElements,
+        meta: {
+          title: '媒体元素绑定'
         }
       }
     ]
