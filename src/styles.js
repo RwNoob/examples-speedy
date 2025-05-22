@@ -7,6 +7,7 @@ styled.global({
     padding: 0,
     fontFamily:
       '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif',
-    boxSizing: 'border-box'
+    boxSizing: 'border-box',
+    listStyle: 'none'
   }
 })

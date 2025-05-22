@@ -114,7 +114,9 @@ const routes = [
   { path: '/layout/numeric-inputs', label: '数字输入' },
   { path: '/layout/checkbox-inputs', label: '复选框输入' },
   { path: '/layout/group-inputs', label: '组选输入' },
-  { path: '/layout/textarea-inputs', label: '多行文本输入' }
+  { path: '/layout/textarea-inputs', label: '多行文本输入' },
+  { path: '/layout/file-inputs', label: '文件输入' },
+  { path: '/layout/select-bindings', label: '下拉选择绑定' }
 ]
 
 export default function Nav() {

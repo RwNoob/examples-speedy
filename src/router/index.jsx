@@ -22,6 +22,8 @@ import NumericInputsDemo from '../views/NumericInputs'
 import CheckboxInputsDemo from '../views/CheckboxInputs'
 import GroupInputsDemo from '../views/GroupInputs'
 import TextareaInputsDemo from '../views/TextareaInputs'
+import FileInputs from '../views/FileInputs'
+import SelectBindings from '../views/SelectBindings'
 const routes = [
   {
     path: '/',
@@ -184,6 +186,20 @@ const routes = [
         component: TextareaInputsDemo,
         meta: {
           title: '多行文本输入'
+        }
+      },
+      {
+        path: 'file-inputs',
+        component: FileInputs,
+        meta: {
+          title: '文件输入'
+        }
+      },
+      {
+        path: 'select-bindings',
+        component: SelectBindings,
+        meta: {
+          title: '下拉选择绑定'
         }
       }
     ]
