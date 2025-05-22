@@ -138,6 +138,13 @@ export default function Nav() {
       >
         DOM事件
       </RouterLink>
+      <RouterLink
+        to="/layout/component-events"
+        classStyle={[styles.link]}
+        activeClass={styles.active.className}
+      >
+        组件事件
+      </RouterLink>
     </nav>
   )
 }

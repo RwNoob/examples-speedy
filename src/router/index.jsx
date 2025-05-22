@@ -15,7 +15,7 @@ import IfBlocksDemo from '../views/IfBlocks'
 import ElseIfBlocksDemo from '../views/ElseIfBlocks'
 import EachBlocksDemo from '../views/EachBlocks'
 import DomEventsDemo from '../views/DomEvents'
-
+import ComponentEventsDemo from '../views/ComponentEvents'
 const routes = [
   {
     path: '/',
@@ -129,6 +129,13 @@ const routes = [
         component: DomEventsDemo,
         meta: {
           title: 'DOM事件'
+        }
+      },
+      {
+        path: 'component-events',
+        component: ComponentEventsDemo,
+        meta: {
+          title: '组件事件'
         }
       }
     ]
