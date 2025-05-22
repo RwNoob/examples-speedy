@@ -26,6 +26,8 @@ import FileInputs from '../views/FileInputs'
 import SelectBindings from '../views/SelectBindings'
 import MediaElements from '../views/MediaElements'
 import Not from '../views/Not'
+import Dimensions from '../views/Dimensions'
+import BindThis from '../views/BindThis'
 const routes = [
   {
     path: '/',
@@ -209,6 +211,20 @@ const routes = [
         component: MediaElements,
         meta: {
           title: '媒体元素绑定'
+        }
+      },
+      {
+        path: 'dimensions',
+        component: Dimensions,
+        meta: {
+          title: '尺寸示例'
+        }
+      },
+      {
+        path: 'bind-this',
+        component: BindThis,
+        meta: {
+          title: '绑定 this'
         }
       }
     ]

@@ -117,7 +117,9 @@ const routes = [
   { path: '/layout/textarea-inputs', label: '多行文本输入' },
   { path: '/layout/file-inputs', label: '文件输入' },
   { path: '/layout/select-bindings', label: '下拉选择绑定' },
-  { path: '/layout/media-elements', label: '媒体元素绑定' }
+  { path: '/layout/media-elements', label: '媒体元素绑定' },
+  { path: '/layout/dimensions', label: '尺寸示例' },
+  { path: '/layout/bind-this', label: '绑定 this' }
 ]
 
 export default function Nav() {

@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "speedy-jsx": "^1.1.10"
+    "speedy-jsx": "^1.1.11"
   },
   "devDependencies": {
     "prettier": "^3.5.3",
