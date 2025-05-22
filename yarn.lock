@@ -326,10 +326,10 @@ speedy-jsx@^1.0.3:
   dependencies:
     htm "^3.1.1"
 
-speedy-jsx@^1.1.9:
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/speedy-jsx/-/speedy-jsx-1.1.9.tgz#32c74f26cbff08cea3339001ba941712734903d1"
-  integrity sha512-dnhpf6UbY7az+tQpQsWDNGvob3n8tqJCQMT+AkdKeTImm2T9wZaBj0DQXgHb7cOkHQA99Kb47k8mQOCedrKKrw==
+speedy-jsx@^1.1.10:
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/speedy-jsx/-/speedy-jsx-1.1.10.tgz#20b47a0e1fd3dab73468a52144523f345faadb89"
+  integrity sha512-fptt9ra1EWXVMNciO+CIlT0lShQ84Qh9GQv8VHeXjYy28GqsQ6j2yjkuyeHZgYi6YvwVsmWNDToxcbZQGNKlKQ==
   dependencies:
     htm "^3.1.1"
 
