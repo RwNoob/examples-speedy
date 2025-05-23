@@ -119,7 +119,16 @@ const routes = [
   { path: '/layout/select-bindings', label: '下拉选择绑定' },
   { path: '/layout/media-elements', label: '媒体元素绑定' },
   { path: '/layout/dimensions', label: '尺寸示例' },
-  { path: '/layout/bind-this', label: '绑定 this' }
+  { path: '/layout/bind-this', label: '绑定 this' },
+  { path: '/layout/on-mount', label: '生命周期钩子' },
+  { path: '/layout/next-tick', label: 'nextTick' },
+  { path: '/layout/stores', label: '状态管理' },
+  { path: '/layout/svg-clock', label: 'SVG时钟' },
+  { path: '/layout/custom-actions', label: '自定义指令' },
+  { path: '/layout/action-params', label: '添加参数到动作' },
+  { path: '/layout/actions-pannable', label: 'Actions 可拖拽' },
+  { path: '/layout/classes', label: '类样式指令' },
+  { path: '/layout/class-shorthand', label: '类样式简写' }
 ]
 
 export default function Nav() {

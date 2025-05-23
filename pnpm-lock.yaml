@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       speedy-jsx:
-        specifier: ^1.1.12
-        version: 1.1.12
+        specifier: ^1.1.16
+        version: 1.1.16
     devDependencies:
       prettier:
         specifier: ^3.5.3
@@ -304,8 +304,8 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
-  speedy-jsx@1.1.12:
-    resolution: {integrity: sha512-uOX0VGT25hsuSjcRxbjEWsVyPLpPwon7EbyLY4VS10BnQQVVjCa+rXrPP6V+zFRJTr8IzI3kPfwtyvV2bQgfww==}
+  speedy-jsx@1.1.16:
+    resolution: {integrity: sha512-yH7u+1dAJjC0oIj123yue9AWGcM68+6TRT9mq9aYp21m+gWlavpkBg9NLl4W+LEYPKQiOJcNC8adGAADFFtk4Q==}
 
   vite-plugin-speedy-jsx@1.0.4:
     resolution: {integrity: sha512-nGDfmHEcUN8UwkrkvC/wwj1K0wzXhVtyyCjWb1Ec/wbh1mtVGrPSvMgqgtoAi7MrUm8YrEAdcCxcgbfuUzgZ8w==}
@@ -548,13 +548,13 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  speedy-jsx@1.1.12:
+  speedy-jsx@1.1.16:
     dependencies:
       htm: 3.1.1
 
   vite-plugin-speedy-jsx@1.0.4(vite@5.4.19):
     dependencies:
-      speedy-jsx: 1.1.12
+      speedy-jsx: 1.1.16
       vite: 5.4.19
 
   vite@5.4.19:

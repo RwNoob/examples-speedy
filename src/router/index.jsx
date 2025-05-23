@@ -28,6 +28,16 @@ import MediaElements from '../views/MediaElements'
 import Not from '../views/Not'
 import Dimensions from '../views/Dimensions'
 import BindThis from '../views/BindThis'
+import OnMount from '../views/OnMount'
+import NextTick from '../views/NextTick'
+import WritableStores from '../views/WritableStores'
+import SvgClock from '../views/SvgClock'
+import CustomActions from '../views/CustomActions'
+import AddingParametersToActions from '../views/AddingParametersToActions'
+import ActionsPannable from '../views/ActionsPannable'
+import ClassesDemo from '../views/ClassesDemo'
+import ClassShorthandDemo from '../views/ClassShorthandDemo'
+
 const routes = [
   {
     path: '/',
@@ -225,6 +235,69 @@ const routes = [
         component: BindThis,
         meta: {
           title: '绑定 this'
+        }
+      },
+      {
+        path: 'on-mount',
+        component: OnMount,
+        meta: {
+          title: '生命周期钩子'
+        }
+      },
+      {
+        path: 'next-tick',
+        component: NextTick,
+        meta: {
+          title: 'nextTick'
+        }
+      },
+      {
+        path: 'stores',
+        component: WritableStores,
+        meta: {
+          title: '状态管理'
+        }
+      },
+      {
+        path: 'svg-clock',
+        component: SvgClock,
+        meta: {
+          title: 'SVG时钟'
+        }
+      },
+      {
+        path: 'custom-actions',
+        component: CustomActions,
+        meta: {
+          title: '自定义指令'
+        }
+      },
+      {
+        path: 'action-params',
+        component: AddingParametersToActions,
+        meta: {
+          title: '向指令添加参数'
+        }
+      },
+      {
+        path: 'action-pannable',
+        component: ActionsPannable,
+        meta: {
+          title: 'Actions Pannable'
+        }
+      },
+      {
+        path: 'classes',
+        component: ClassesDemo,
+        meta: {
+          title: '类样式指令'
+        }
+      },
+      {
+        path: 'class-shorthand',
+        component: ClassShorthandDemo,
+        meta: {
+          title: '类样式简写'
         }
       }
     ]
