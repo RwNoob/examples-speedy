@@ -1,4 +1,4 @@
-import { h, ref, watchEffect } from 'speedy-jsx'
+import { ref, watchEffect } from 'speedy-jsx'
 import { styled } from 'speedy-jsx'
 
 const styles = styled.scope({

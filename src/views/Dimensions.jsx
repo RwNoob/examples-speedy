@@ -1,4 +1,4 @@
-import { h, ref, onMounted, onUpdated, onUnmounted } from 'speedy-jsx'
+import { ref, onMounted, onUpdated, onUnmounted } from 'speedy-jsx'
 import { styled } from 'speedy-jsx'
 
 const styles = styled.scope({

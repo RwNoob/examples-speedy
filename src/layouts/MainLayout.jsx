@@ -22,12 +22,15 @@ const styles = styled.scope({
     fontSize: '1.3rem',
     color: '#333',
     fontWeight: '600',
-    userSelect: 'none'
+    userSelect: 'none',
+    fontFamily: 'system-ui, -apple-system, sans-serif',
+    letterSpacing: '0.5px',
+    lineHeight: 1.4
   },
   main: {
     position: 'relative',
     padding: '2rem',
-    paddingBottom: '3.3rem',
+    paddingBottom: '3.4rem',
     maxWidth: '1200px',
     margin: '0 auto',
     width: '100%',

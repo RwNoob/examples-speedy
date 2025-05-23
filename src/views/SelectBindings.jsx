@@ -1,4 +1,4 @@
-import { h, ref } from 'speedy-jsx'
+import { ref } from 'speedy-jsx'
 import { styled } from 'speedy-jsx'
 
 const fontFamily =

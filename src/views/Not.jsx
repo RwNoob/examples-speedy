@@ -1,4 +1,4 @@
-import { h, RouterLink } from 'speedy-jsx'
+import { RouterLink } from 'speedy-jsx'
 import { styled } from 'speedy-jsx'
 
 const styles = styled.scope({
